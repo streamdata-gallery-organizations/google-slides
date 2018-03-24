@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: google-slides.api.streamdata.gallery
+title: Streamdata Gallery Google Slides
+url: google-slides.streamdata.gallery
 tag: Google Slides
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: google-slides
 github_branch: master
 collections:
