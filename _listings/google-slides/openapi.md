@@ -4,7 +4,7 @@ x-collection-name: Google Slides
 x-complete: 1
 info:
   title: Google Slides
-  description: an-api-for-creating-and-editing-google-slides-presentations
+  description: an-api-for-creating-and-editing-google-slides-presentations-
   contact:
     name: Google
     url: https://google.com
