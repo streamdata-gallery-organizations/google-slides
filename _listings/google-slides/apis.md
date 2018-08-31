@@ -11,46 +11,49 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Google Slides
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-slides/master/_listings/google-slides/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Slides API Create Presentation
-  x-api-slug: google-slides-api
+- name: Google Slides - Create Presentation
+  x-api-slug: v1presentations-post
   description: |-
     Creates a new presentation using the title given in the request. Other
     fields in the request are ignored.
     Returns the created presentation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-slides-icon.png
   humanURL: https://docs.google.com/presentation/
-  baseURL: ://slides.googleapis.com////v1/presentations
-  tags: Presentation
+  baseURL: ://slides.googleapis.com//
+  tags: Google APIs, Slides, Documents, Stack Network, Productivity, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-slides/master/_listings/google-slides/v1presentations-post-openapi.md
-- name: Google Slides API Get Presentation
-  x-api-slug: google-slides-api
+- name: Google Slides - Get Presentation
+  x-api-slug: v1presentationspresentationid-get
   description: Gets the latest version of the specified presentation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-slides-icon.png
   humanURL: https://docs.google.com/presentation/
-  baseURL: ://slides.googleapis.com////v1/presentations/{presentationId}
-  tags: Presentation
+  baseURL: ://slides.googleapis.com//
+  tags: Google APIs, Slides, Documents, Stack Network, Productivity, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-slides/master/_listings/google-slides/v1presentationspresentationid-get-openapi.md
-- name: Google Slides API Get Presentation Page
-  x-api-slug: google-slides-api
+- name: Google Slides - Get Presentation Page
+  x-api-slug: v1presentationspresentationidpagespageobjectid-get
   description: Gets the latest version of the specified page in the presentation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-slides-icon.png
   humanURL: https://docs.google.com/presentation/
-  baseURL: ://slides.googleapis.com////v1/presentations/{presentationId}/pages/{pageObjectId}
-  tags: Presentation, Page
+  baseURL: ://slides.googleapis.com//
+  tags: Google APIs, Slides, Documents, Stack Network, Productivity, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-slides/master/_listings/google-slides/v1presentationspresentationidpagespageobjectid-get-openapi.md
-- name: Google Slides API Update Presentation
-  x-api-slug: google-slides-api
+- name: Google Slides - Update Presentation
+  x-api-slug: v1presentationspresentationidbatchupdate-post
   description: |-
     Applies one or more updates to the presentation.
 
@@ -75,27 +78,17 @@ apis:
     atomically.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-slides-icon.png
   humanURL: https://docs.google.com/presentation/
-  baseURL: ://slides.googleapis.com////v1/presentations/{presentationId}:batchUpdate
-  tags: Presentation
+  baseURL: ://slides.googleapis.com//
+  tags: Google APIs, Slides, Documents, Stack Network, Productivity, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-slides/master/_listings/google-slides/v1presentationspresentationidbatchupdate-post-openapi.md
-- name: Google Slides API
-  x-api-slug: google-slides-api
-  description: The Google Slides API lets you create and modify Google Slides presentations.
-    Apps can integrate with the Google Slides API to create beautiful slide decks
-    automatically from user- and system-provided data. For example, you could use
-    customer details from a database and combine them with predesigned templates and
-    selected configuration options to create finished presentations in a fraction
-    of the time it would take to create them manually.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-slides-icon.png
-  humanURL: https://docs.google.com/presentation/
-  baseURL: ://slides.googleapis.com//
-  tags: Google Slides
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-slides/master/_listings/google-slides/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.site.verification.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.slides.stack.network
 - type: x-developer
   url: https://developers.google.com/slides/
 - type: x-documentation
